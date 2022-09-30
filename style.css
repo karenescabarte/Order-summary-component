@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+/* 
+font-family: 'Red Hat Display', sans-serif;
+Weights: 500, 700, 900
+*/
+
+:root {
+  --primary-light-clr: hsl(225, 100%, 94%);
+  --secondary-light-clr: hsl(245, 75%, 52%);
+
+  --primary-neutral-clr: hsl(225, 100%, 98%);
+  --secondary-neutral-clr: hsl(224, 23%, 55%);
+  --tertiary-neutral-clr: hsl(223, 47%, 23%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--primary-light-clr);
+  font-family: "Red Hat Display", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-desktop {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 300px;
+  height: 500px;
+  border-radius: 20px;
+  background-color: var(--primary-neutral-clr);
+}
+
+.container .bg-image {
+  max-width: 100%;
+  height: 30%;
+  background-image: url("images/illustration-hero.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  border-radius: 20px 20px 0 0;
+}
+
+.container .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.container .wrapper h1 {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.container .wrapper p {
+  line-height: 1.5;
+  font-size: 16px;
+  color: var(--secondary-neutral-clr);
+  margin-bottom: 15px;
+}
+
+.container .annual-plan {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: hsl(225, 100%, 97%);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.container .annual-plan h5 {
+  text-align: left;
+  line-height: 1.5;
+  margin-left: 20px;
+  color: var(--tertiary-neutral-clr);
+  font-weight: 900;
+}
+
+.container .annual-plan h5 span {
+  color: var(--secondary-neutral-clr);
+  font-weight: 400;
+}
+
+.container .annual-plan .change {
+  text-decoration: underline;
+  font-size: 12px;
+  color: var(--secondary-light-clr);
+  font-weight: 900;
+}
+
+.container .annual-plan .change:hover {
+  opacity: 0.8;
+}
+.container .payment {
+  width: 100%;
+  border: none;
+  background-color: var(--secondary-light-clr);
+  color: var(--primary-light-clr);
+  font-weight: 700;
+  padding: 15px 0;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.container .payment:hover {
+  opacity: 0.8;
+}
+
+.container .cancel-order {
+  border: none;
+  background-color: transparent;
+  font-weight: 700;
+  margin: 17px;
+  color: var(--secondary-neutral-clr);
+}
+
+.container .cancel-order:hover {
+  color: var(--tertiary-neutral-clr);
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  position: absolute;
+  bottom: 30px;
+}
+.attribution a {
+  color: var(--secondary-light-clr);
+  text-decoration: none;
+}
+.attribution a:hover {
+  color: var(--tertiary-neutral-clr);
+}
