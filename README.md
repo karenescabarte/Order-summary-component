@@ -33,14 +33,14 @@ The Challenge was about making a profile card component and get it look as close
 
 ### Screenshot
 
-![](Desktop output.jpg)
-![](Mobile output.jpg)
+![](Desktop.jpg)
+![](Mobile.jpg)
 
 
 ### Links
 
-- Solution URL: (https://github.com/karenescabarte/Profile-card-component)
-- Live Site URL: (https://karenescabarte.github.io/Profile-card-component/)
+- Solution URL: (https://github.com/karenescabarte/Order-summary-component.git)
+- Live Site URL: (https://karenescabarte.github.io/Order-summary-component/)
 
 ## My process
 This challenge was made by the help of HTML5 and CSS3. 
